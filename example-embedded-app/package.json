@@ -15,7 +15,7 @@
     "@mui/icons-material": "^6.4.9",
     "@mui/material": "^6.4.9",
     "@mui/styles": "^6.4.8",
-    "@prismatic-io/embedded": "file:..",
+    "@prismatic-io/embedded": "2.13.0",
     "apexcharts": "3.41.0",
     "axios": "^1.8.4",
     "clsx": "1.2.1",
