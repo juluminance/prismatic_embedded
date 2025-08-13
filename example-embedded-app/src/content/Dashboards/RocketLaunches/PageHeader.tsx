@@ -3,7 +3,7 @@ import { useTheme } from "@mui/material/styles";
 
 function PageHeader() {
   const user = {
-    name: "Jane Doe",
+    name: "Julian Lywood",
     avatar: "/static/images/avatars/generic-avatar-image1.png",
   };
   const theme = useTheme();
@@ -27,7 +27,7 @@ function PageHeader() {
           Welcome, {user.name}!
         </Typography>
         <Typography variant="subtitle2">
-          Manage recent and future rocket launches from here!
+          Manage recent and future Luminance integrations from here!
         </Typography>
       </Grid>
     </Grid>

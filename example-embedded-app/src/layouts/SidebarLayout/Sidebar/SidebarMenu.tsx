@@ -146,39 +146,39 @@ interface EmbeddedSidebarMenuProps {
 const embeddedSidebarMenuItems: EmbeddedSidebarMenuProps[] = [
   {
     path: "/examples/embedded-marketplace",
-    title: "Embedded Marketplace",
+    title: "Integrations Marketplace",
     icon: WebTwoTone,
   },
-  {
-    path: "/examples/embedded-marketplace-popover",
-    title: "Marketplace with Popover",
-    icon: PictureInPictureTwoTone,
-  },
-  {
-    path: "/examples/embedded-designer",
-    title: "Embedded Designer",
-    icon: ConstructionTwoTone,
-  },
-  {
-    path: "/examples/embedded-dashboard",
-    title: "Embedded Dashboard",
-    icon: DashboardTwoTone,
-  },
-  {
-    path: "/examples/custom-ui-elements",
-    title: "Custom UI Elements",
-    icon: ViewComfyAltTwoTone,
-  },
-  {
-    path: "/examples/dynamically-set-config-variables",
-    title: "Set Config Variables",
-    icon: TerminalTwoTone,
-  },
-  {
-    path: "examples/i18n",
-    title: "Internationalization (i18n)",
-    icon: TranslateTwoTone,
-  },
+  // {
+  //   path: "/examples/embedded-marketplace-popover",
+  //   title: "Marketplace with Popover",
+  //   icon: PictureInPictureTwoTone,
+  // },
+  // {
+  //   path: "/examples/embedded-designer",
+  //   title: "Embedded Designer",
+  //   icon: ConstructionTwoTone,
+  // },
+  // {
+  //   path: "/examples/embedded-dashboard",
+  //   title: "Embedded Dashboard",
+  //   icon: DashboardTwoTone,
+  // },
+  // {
+  //   path: "/examples/custom-ui-elements",
+  //   title: "Custom UI Elements",
+  //   icon: ViewComfyAltTwoTone,
+  // },
+  // {
+  //   path: "/examples/dynamically-set-config-variables",
+  //   title: "Set Config Variables",
+  //   icon: TerminalTwoTone,
+  // },
+  // {
+  //   path: "examples/i18n",
+  //   title: "Internationalization (i18n)",
+  //   icon: TranslateTwoTone,
+  // },
 ];
 
 function SidebarMenu() {
@@ -190,36 +190,16 @@ function SidebarMenu() {
     <>
       <MenuWrapper>
         <List
-          component="div"
-          subheader={
-            <ListSubheader component="div" disableSticky>
-              Dashboards
-            </ListSubheader>
-          }
+
+
         >
-          <SubMenuWrapper>
-            <List component="div">
-              <ListItem component="div">
-                <NextLink href="/" passHref legacyBehavior>
-                  <Button
-                    className={currentRoute === "/" ? "active" : ""}
-                    disableRipple
-                    component="a"
-                    onClick={closeSidebar}
-                    startIcon={<RocketLaunchTwoTone />}
-                  >
-                    Rocket Launches
-                  </Button>
-                </NextLink>
-              </ListItem>
-            </List>
-          </SubMenuWrapper>
+
         </List>
         <List
           component="div"
           subheader={
             <ListSubheader component="div" disableSticky>
-              Embedded Examples
+              Menu
             </ListSubheader>
           }
         >

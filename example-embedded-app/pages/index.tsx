@@ -13,7 +13,7 @@ function RocketLaunchDashboard() {
   return (
     <>
       <Head>
-        <title>Rocket Launch Dashboard</title>
+        <title>Luminance Demo</title>
       </Head>
       <PageTitleWrapper>
         <PageHeader />

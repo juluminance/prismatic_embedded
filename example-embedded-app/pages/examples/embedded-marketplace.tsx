@@ -34,11 +34,8 @@ function EmbeddedMarketplace() {
   return (
     <>
       <Head>
-        <title>Embedded Marketplace</title>
+        <title>Luminance Integrations Marketplace</title>
       </Head>
-      <PageTitleWrapper>
-        <ExampleHeader markdown={embeddedMarketplaceHelperText} />
-      </PageTitleWrapper>
       <EmbeddedMarketplaceWrapper
         id={embeddedDivId}
         maxWidth={false}
