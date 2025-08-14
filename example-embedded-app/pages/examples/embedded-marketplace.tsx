@@ -4,13 +4,13 @@ import prismatic from "@prismatic-io/embedded";
 
 import React from "react";
 import SidebarLayout from "@/layouts/SidebarLayout";
-import ExampleHeader from "@/components/ExampleHeader";
-import PageTitleWrapper from "@/components/PageTitleWrapper";
+//import ExampleHeader from "@/components/ExampleHeader";
+//import PageTitleWrapper from "@/components/PageTitleWrapper";
 import { Container, styled } from "@mui/material";
 import Footer from "@/components/Footer";
 import usePrismaticAuth from "@/usePrismaticAuth";
 
-import embeddedMarketplaceHelperText from "./embedded-marketplace.md";
+//import embeddedMarketplaceHelperText from "./embedded-marketplace.md";
 
 const EmbeddedMarketplaceWrapper = styled(Container)(() => ({
   height: "70vh",
