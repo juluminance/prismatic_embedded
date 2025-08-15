@@ -26,6 +26,11 @@ function EmbeddedMarketplace() {
     if (authenticated) {
       prismatic.showMarketplace({
         selector: `#${embeddedDivId}`,
+        filters: {
+          marketplace: {
+            category: "CRM",
+          },
+        },
         theme: "LIGHT",
       });
     }
